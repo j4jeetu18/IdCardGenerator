@@ -1,3 +1,33 @@
+body{
+  text-align: center;
+  background-image: url(https://img.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg?w=1060&t=st=1674555668~exp=1674556268~hmac=f0a3490be2b16586ee6bdf4ffd36e2e7080c9b67c16e26720b612fbe68ce058b);
+  background-size:cover;
+}
+
+h1{
+  font-size: 3em;
+}
+main{
+  display: flex;
+}
+
+#tentative-id-card{
+  margin: 4%;
+}
+#resultSection{
+  border-radius: 30px;
+  width: 60%;
+  margin: 1.17% 3% 0px 7%;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.generatedIdCards{
+  margin:2% 3% 2% 0%;
+}
+
 #input-Container{
   padding: 4em;
 }
@@ -15,21 +45,33 @@ form{
   width: 100%;
   margin: 0px;
   padding: 0px;
-  border-radius: 30px;
+  border-radius: 25px 25px 0px 0px;
 }
 #tentative-id-card{
   width: 500px;
+  height: 300px;
   border-radius: 30px;
   border:3px solid black;
 }
 
 #tentative-uploaded-photo{
-  height: 5em;
-  width: 5em;
+  margin-right: 17%;
+  height: 7em;
+  margin-top:7%; 
+  min-width: 90px;
   border: 2px solid black;
 }
+#tentative-details{
+  width: 40%;
+  padding-top: 3%;
+  word-break:revert-layer;
+  text-align: left;
+}
 #tentative-details-container{
+  background-color: white;
   display: flex;
-  padding: 15% 25% 15% 12%;
+  padding:3% 10% 15% 9%;
+  border-radius: 30px;
   justify-content: space-between;
+  word-wrap: wrap;
 }
