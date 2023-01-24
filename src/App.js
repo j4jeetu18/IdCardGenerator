@@ -1,9 +1,13 @@
 import InputContainer from "./InputContainer";
-import TentativeIdCard from "./TentativeIdCard";
+import GeneratedResults from "./GeneratedResults";
 function App() {
   return (
     <>
-      <InputContainer />
+      <h1>ID Card Generator</h1>
+      <main>
+            <InputContainer />
+            <GeneratedResults/>
+      </main>
     </>
   );
 }
